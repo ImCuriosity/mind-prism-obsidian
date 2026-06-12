@@ -1,0 +1,31 @@
+{
+  "name": "obsidian-para-cluster-viewer",
+  "version": "0.1.0",
+  "description": "다중 투사 및 동적 군집화(PARA) 하이브리드 그래프 뷰어 옵시디언 플러그인",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "d3",
+    "graph",
+    "para"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^20.11.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}

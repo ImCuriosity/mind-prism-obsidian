@@ -1,0 +1,9 @@
+{
+  "id": "para-cluster-viewer",
+  "name": "PARA Cluster Viewer",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "무정형 그래프와 PARA 계층형 트리를 함께 보여주는 하이브리드 뷰어. D3 force 시뮬레이션으로 노드가 카테고리별 중력점으로 동적 군집화됩니다.",
+  "author": "",
+  "isDesktopOnly": false
+}
